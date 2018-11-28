@@ -52,7 +52,7 @@
               <a class="nav-link" href="./contestLogin.jsp" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=510, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;">로그인</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contestRegister.jsp">무료회원가입</a>
+              <a class="nav-link" href="./contestRegister.jsp">무료회원가입하셈</a>
             </li>
           </ul>
         </div>
