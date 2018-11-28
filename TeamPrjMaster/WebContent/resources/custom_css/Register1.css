@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+section{
+	margin:0 auto;
+	margin-top:100px;
+	max-width: 768px;
+    min-width: 460px;
+}
+div#container{
+	width:460px;
+	margin: 0 auto;
+	text-align:left;
+}
+input.chk{
+	cursor:pointer;
+}
+textarea{
+	margin-top: 8px;
+	border: 1px solid #dadada;
+	background: #fff;
+	overflow: auto;
+	height: 88px;
+}
+span{
+	cursor:pointer;
+}
+
+.span2{
+	color: Salmon  ;
+	font-weight: bold;
+}
+div#btnDiv{
+
+	width:300px;
+	height:80px;
+	position:relative;
+	text-align: center;
+	margin:0 auto;
+}
+input[type=submit]{
+	cursor:pointer;
+	width:120px;
+	height:50px;
+	padding:15px;
+	background-color:Salmon;
+	color: SeaShell;
+	font-weight: bold;
+}
+

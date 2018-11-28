@@ -1,0 +1,40 @@
+div#container {
+	
+}
+
+#btn {
+	border-radius: 5px;
+	border: 0px; 
+	background-color:DodgerBlue;
+	color:white;
+	cursor: pointer;
+	width: 120px;
+    height: 60px;
+    font-size:20px;
+}
+
+div#btndiv {
+	margin:50px;
+	text-align:center;
+}
+
+#btn:hover {
+	background-color:navy;
+	border:navy;
+}
+
+.schTable{
+	margin-top:100px;
+	width:700px;
+}
+.schTxt{
+	width:600px;
+	height:60px;
+	font-size: 20px;
+}
+
+.schImg{
+	margin:0px;
+	width:60px;
+	height:60px;
+}

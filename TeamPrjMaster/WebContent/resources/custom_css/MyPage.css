@@ -1,0 +1,20 @@
+div#bgcol {
+	background-color:MediumSeaGreen;
+    height: 250px auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+img#proimg {
+	width: 120px;
+    height: 120px auto;
+    text-align: center;
+	padding-bottom:20px;
+    padding-top:20px;
+    border-radius:50%;
+}
+
+div#userdiv {
+	padding-bottom:20px;
+}

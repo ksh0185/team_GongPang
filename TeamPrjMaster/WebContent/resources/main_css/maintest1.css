@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+.schTxt{
+padding-left:10px;
+ width:600px;
+ height:50px;
+ font-size: 20px;
+ background-color:rgba(255, 255, 255, 0.5);
+ border:0px;
+}
+.schTxt:hover {
+ background-color: rgba(255, 255, 255, 0.8);; 
+ }
+.schImg{
+	margin:0px;
+	width:60px;
+	height:60px;
+}
+
+.card-img-top {
+	width: 250px;
+    height: 200px;
+    cursor: pointer;
+    margin-left:0px;
+    margin-right:25px;
+    margin-top:25px;
+    padding-bottom:10px;
+    transition: all ease 1s;
+}
+.schTable{
+	margin-top:10%;
+	
+	width:700px;
+}
+.card-img-top:hover {
+transform: scale( 1.2 );
+}
+
+input.titletxt {
+	width: 150px;
+	cursor: pointer;
+    margin-left:25px;
+    margin-right:25px;
+    text-align:center;
+    padding-bottom:20px;
+    border:0px;
+}
+
+@media (max-width: 700px) {
+ .schTxt {
+  	width:450px;
+  }
+}
+@media (max-width: 500px) {
+  .schTxt {
+  	width:200px;
+  	height:40px;
+  	margin-left:-30px;
+  }
+  .container_cover{
+  	padding-left:10%;
+  }
+  
+}
+@media (max-width: 500px) {
+  .section_inner,section,.section_content,.section_category,.section_title {
+  	width:250px;
+  }
+  
+  .schImg  {
+  	width:40px;
+  	height:40px;
+  }
+  
+  .contest_item {
+    background-color: white;
+    box-shadow: 1px 1px 2px #CEC6C6;
+    border-radius: 2px;
+    width: 250px;
+    height: 50px;
+    line-height: 20px;
+    margin:5px;
+    color: #495161;
+    font-size: 13px;
+}
+	.cata{
+	width:50%;
+	}
+
+}
+
+.cata{
+	width:100%;
+	text-align:center;
+}
+
+
+
+section{
+	padding:80px 60px;
+}
+.contentBtn{
+	margin:40px;
+	margin-left:100px;
+	border: 1px solid midnightblue;
+	background-color: white;
+}
+
+div {
+    display: block;
+}
+#section1{
+ padding-top:0px;
+}
+#section2{
+ background-color:#F5F5F5;
+}
+.section_content {
+    margin: 40px 0;
+    color: #495161;
+    margin-left:10%;
+    background-color:#F5F5F5;
+}
+.section_inner {
+ 
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_category{
+	margin-left:25%;
+}
+.section_title {
+    font-size: 24px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    width: 420px;
+    color: #495161;
+}
+
+
+.contest_wrap {
+    display: inline-block;
+    width: 460px;
+   
+    vertical-align: top;
+}
+.contest_category {
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-align:center;
+   /*  background-color:	#F5F5DC; */
+    
+}
+.contest_item {
+    background-color: white;
+    box-shadow: 1px 1px 2px #CEC6C6;
+    border-radius: 2px;
+    width: 100%;
+    height: 10%;
+    line-height: 50px;
+    margin:5px;
+    color: #495161;
+    font-size: 13px;
+     text-align:center;
+}
+
+.container_cover{
+	background-color:#FFF8DC;
+	padding-left:30%;
+	padding-right:30%;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+
+.itemSize{
+	width:350px;
+	margin-left:10px;
+}
+
+.rankingTitle{
+	text-align:center;
+	border:1px solid #c0c0c0;
+	border-radius:6px;
+}
+
+.contest_item:hover {
+transform: scale( 1.05 );
+background-color:#F8F8FF;
+}
