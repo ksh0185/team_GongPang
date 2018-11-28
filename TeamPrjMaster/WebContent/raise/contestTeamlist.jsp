@@ -125,7 +125,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="display-3 text-center text-white mt-4">공팡이</h1>
+            <h1 class="display-3 text-center text-white mt-4">공팡</h1>
           	<div class="schTable">
           	<input type="text" placeholder="검색" class="schTxt">
 
