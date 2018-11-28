@@ -45,7 +45,7 @@
               </a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="./contestRaise.jsp">공모전개최
+              <a class="nav-link" href="./contestRaise.jsp">공모전개최당게
               </a>
             </li>
             <li class="nav-item">
