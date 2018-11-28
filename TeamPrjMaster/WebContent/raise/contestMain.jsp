@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="./contestTeamlist.jsp">공모전Test
+              <a class="nav-link" href="./contestTeamlist.jsp">공모전
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -52,7 +52,7 @@
               <a class="nav-link" href="./contestLogin.jsp" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=510, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;">로그인</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contestRegister.jsp">무료회원가입햇니</a>
+              <a class="nav-link" href="./contestRegister.jsp">무료회원가입</a>
             </li>
           </ul>
         </div>
