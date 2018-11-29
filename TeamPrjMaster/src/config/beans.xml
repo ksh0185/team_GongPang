@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+	
+	<aop:aspectj-autoproxy />
+	<!-- 스프링 컨트롤러와 빈 클래스를 작성할 패키지 설정 -->
+	<context:component-scan base-package="myspring" />
+	<!-- DataSource 설정 
+	 데이터 베이스 정보 설정
+	 -->
+     <bean id="dataSource"  
+        class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+		<!-- JDBC 드라이버 -->
+     	<property name="driverClass"   
+     	  value="oracle.jdbc.driver.OracleDriver" />
+		<!-- JDBC url -->
+     	<property name="url"  
+     	  value="JDBC:oracle:thin:@127.0.0.1:1521:XE" />
+		<!-- 사용자명 -->
+     	<property name="username"  value="scott01"  />
+		<!-- 비밀번호-->
+     	<property name="password"  value="tiger" />
+     </bean>
+	
+	<!-- mybatis-spring 설정 -->
+	<bean id="sqlSessionFactory" 
+	   class="org.mybatis.spring.SqlSessionFactoryBean">
+	    <!-- 데이터 베이스 연결 정보 -->
+		<property name="dataSource"  ref="dataSource" />
+		<!-- VO객체의 별칭이 설정된 파일 -->
+		<property name="configLocation"  
+		  value="classpath:/config/SqlMapConfig.xml" />
+		 <!-- sql쿼리를 구현한 파일의 경로 --> 
+		<property name="mapperLocations">
+			<list>
+				<value>classpath:/config/User.xml</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactory" />
+	</bean>
+	<!-- 파일 업로드 설정 -->
+	<!--  파일 업로드를 실행 할 클래스의 패키지명 클래스명 -->
+ 	<bean id="multipartResolver"
+ 	  class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+ 	  <!-- 최대 업로드 사이즈 (넘어가면 Exception) 단위 byte -->
+ 	  <property name="maxUploadSize"
+ 	     value="100000000"/>
+ 	   <!-- 최대 메모리 사이즈 단위 byte -->
+ 	   <property name="maxInMemorySize"
+ 	      value="100000000"/>
+ 	</bean>
+</beans>
