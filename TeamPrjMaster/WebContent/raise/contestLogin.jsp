@@ -22,7 +22,7 @@
 	        	    
 	                <h1>Login</h1>
 	                
-	                    <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
+	                    <form>
 	                    
 	                        <div class="form-group">
 	                            <label for="id" class="sr-only">Id</label>
@@ -38,8 +38,8 @@
 	                        <hr>
 	                    </form>
 	                    
-	                    <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=510, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;">아이디 찾기</a>
-	                    <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=510, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;"> 비밀번호 찾기</a>
+	                    <a class="forget" data-toggle="modal" data-target=".forget-modal" href="./contestSearchid.jsp" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=600, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;">아이디 찾기</a>
+	                    <a class="forget" data-toggle="modal" data-target=".forget-modal" href="./contestSearchpw.jsp" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=510, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;"> 비밀번호 찾기</a>
 	                    <hr>
 	        	    </div>
 	    		</div> <!-- /.col-xs-12 -->

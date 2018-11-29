@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+/*    --------------------------------------------------
+	:: SearchLogin Section
+	-------------------------------------------------- */
+
+#searchpw{
+	
+    padding-top: 50px
+}
+
+
+
+#searchpw h2{
+	color: #1fa67b;
+    font-weight: bold;	    
+}
+
+
+div#container{
+	margin:0px;
+	width:600px;
+	radious:3px;
+
+}
+
+
+input#nameid{
+	width:200px;
+	
+}
+
+
+#searchpw.form-group {
+    margin-bottom: 25px;
+}
+
+
+#searchpw.checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#searchpw.checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#searchpw.checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+#searchpw.btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#searchpw.forget {
+    font-size: 13px;
+	text-align: center;
+	display: block;
+}
+
+
+input#nextbtn{
+	heght:15px;
+	width:70px;
+    border: 1px solid gray;
+    border-radius: 3px;
+ }
+
+
+#table01{
+align: center;
+}
+
+
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+
+	-------------------------------------------------- */
+
+@media (max-width: 700px) {
+ .form-control {
+  	width:450px;
+  }
+}
+@media (max-width: 500px) {
+  .form-control {
+  	width:200px;
+  	margin-left:-50px;
+  }
+}
+.form-control {
+    color: #212121;
+	display: inline
+}
+
+.btn-custom {
+    color: #fff;
+	background-color: #1fa67b;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
+/*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}
