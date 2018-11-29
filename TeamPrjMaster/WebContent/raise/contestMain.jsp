@@ -151,27 +151,24 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
            <div class="contest_category">
-      		<b>가장 최근에 등록된</b> 콘테스트 리스트
+      		<img src="./../resources/png/sand-clock.png"><b>최근에 등록된</b> 공모전 리스트
     		</div>
             <div class="card-body">
             
-              <table>
+             <table>
                <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>
                <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>
                <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>
                <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>
                <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>
-               <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>
-             
-               
-              
-               </table>
+               <tr><td><a href="#"><div class="contest_item">작품활동작품활동작품활동</div></a></td></tr>              
+             </table>
              
             </div>
           </div>       
           <div class="col-lg-4 mr-auto">
             <div class="contest_category">
-      		<b>가장 상금이 많은</b> 콘테스트 리스트
+      		<img src="./../resources/png/coins.png"><b>상금이 많은</b> 공모전 리스트
     		</div>
             <div class="card-body">
             
