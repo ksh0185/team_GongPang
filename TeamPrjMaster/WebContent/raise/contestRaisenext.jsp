@@ -199,7 +199,9 @@
           	<tr>
           		<th><br>대문사진<br><input type="file" required id="fileUp"></th>
           	</tr>
+          	
           </table>
+          <div class="g-recaptcha" data-sitekey="6Lf3wH0UAAAAAPi82Mpbb-W-352kVRIJ6vnAcFXe"></div>
         </div>
 
       <br>
@@ -229,6 +231,15 @@
     <!-- Bootstrap core JavaScript -->
     <script src="./../resources/vendor/jquery/jquery.min.js"></script>
     <script src="./../resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+		grecaptcha.ready(function() {
+		grecaptcha.execute('6Lddwn0UAAAAAIXKERFrTUQhtyQ8IQKwhLybXWkZ', {action: 'action_name'})
+		.then(function(token) {
+		// Verify the token on the server.
+		});
+		});
+</script>
 	</form>
   </body>
 
