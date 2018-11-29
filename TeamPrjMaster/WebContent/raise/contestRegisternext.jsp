@@ -157,7 +157,10 @@
           		<th><br>대화명<br><input type="text" class="raiseNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>이메일<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>이메일<br><input type="text" class="raiseNextForm" required><input type="button" value="인증"></th>
+          	</tr>
+          	<tr>
+          		<th><br>인증번호<br><input type="text" class="raiseNextForm" required></th>
           	</tr>
           	<tr>
           		<th><br>전화번호<br><input type="text" class="raiseNextForm" required></th>
@@ -173,8 +176,8 @@
       <br>
       <!-- /.row -->
 		<div class="row">
-			<h6 class="mt-4">위 내용에 동의하여 공모전 개최를 진행하고자 하면 개최단계로 이동하세요.
-			</h6>
+			<h5 >회원가입을 진행하고자 하면 가입버튼을 클릭하세요.<br>
+			</h5>
 			 <p>
              <input type="submit" class="btn btn-primary btn-lg" value="가입하기&raquo;"> 
           </p>
