@@ -58,7 +58,7 @@
     			}
     		else
     			{
-    				check1.style.backgroundColor = "#1fa67b";
+    				check1.style.backgroundColor = "#c0c0c0";
     				checked1=false;
     			}
     		}
@@ -71,7 +71,7 @@
         			}
         		else
         			{
-        				check2.style.backgroundColor = "#1fa67b";
+        				check2.style.backgroundColor = "#c0c0c0";
         				checked2=false;
         			}
         		}
