@@ -84,13 +84,13 @@
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           
-            <a href="#"><img class="card-img-top" src="./../resources/png/mainTest-01.png" alt=""></a>
+            <a href="#"><img class="card-img-top" src="./../resources/png/test2-01.png" alt=""></a>
            
        
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         
-            <a href="#"><img class="card-img-top" src="./../resources/png/mainTest-02.png" alt=""></a>
+            <a href="#"><img class="card-img-top" src="./../resources/png/test2-02.png" alt=""></a>
         
    
         </div>
