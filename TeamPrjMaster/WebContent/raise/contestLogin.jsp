@@ -66,7 +66,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <p><strong><a href="http://www.facebook.com/tavo.qiqe.lucero" target="_blank">공팡</a></strong></p>
+                <p><strong><a href="./contestMain.jsp" target="_blank">공팡</a></strong></p>
             </div>
         </div>
     </div>
