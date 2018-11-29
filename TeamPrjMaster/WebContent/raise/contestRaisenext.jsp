@@ -132,12 +132,18 @@
       </div>
     </nav>
 
+    <div class="container_roud">
 
-  <div class="bg-gray">
-    <div class="contaiter">
-
-      <div class="row">
-
+  
+		<div class="row">
+			<h3 class="mt-4">
+				Step 1
+			</h3>
+		</div>
+		<div class="row">
+			<h3>공모전 정보</h3>
+		</div>
+		<hr>
           <table>
           	
           	<tr>
@@ -156,6 +162,19 @@
           		<tr>
           		<th><br>세부사항<br><textarea style="resize: none" class="textCom" required></textarea></th>
           	</tr>
+          	</table>
+          	<br>
+          	<hr class="dotted">
+          	<div class="row">
+			<h3 class="mt-4">
+				Step 2
+			</h3>
+			</div>
+			<div class="row">
+			<h3>기간 및 상금</h3>
+			</div>
+			<hr>
+          	<table>
           		<tr>
           		<th><br>공모전 기간<br>시작 : 
           		<select name=years id="startSel">
@@ -191,7 +210,7 @@
           		
           	</tr>
           	<tr>
-          		<th><br>참가자 수 제한<br><input type="text" class="raiseNextForm" required placeholder="명"></th>
+          		<th><br>참가자 수 제한<br><input type="number" class="raiseNextForm" required placeholder="명"></th>
           	</tr>
           	<tr>
           		<th><br>상금<br><input type="number" class="raiseNextForm" required placeholder="원"></th>
@@ -202,13 +221,12 @@
           	
           </table>
           <div class="g-recaptcha" data-sitekey="6Lf3wH0UAAAAAPi82Mpbb-W-352kVRIJ6vnAcFXe"></div>
-        </div>
+        
 
       <br>
       <!-- /.row -->
 		<div class="row">
-			<h5><br>계속해서 공모전 개최를 진행하고자 하면 이동하세요.<br>
-			</h5>
+			<hr class="none">
 			 <p>
              <input type="submit" class="btn btn-primary btn-lg" value="제출하기&raquo;"> 
           </p>
@@ -217,7 +235,7 @@
       <!-- /.row -->
 
     </div>
-    </div>
+
     <!-- /.container -->
 
     <!-- Footer -->

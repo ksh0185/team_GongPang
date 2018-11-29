@@ -1,10 +1,10 @@
 .textCom{
-	width:75%;
-	background-color: #1fa67b;
+	width:760px;
+	background-color: #ffffff;
 	border-radius:6px;
 	height:200px;
 	border:0px;
-	color:white;
+	color:black;
 	font-size:18px;
 }
 
@@ -34,9 +34,16 @@ td{
     padding-right: 15px;
     padding-left: 15px;
     color:black;
-
-   
 }
+
+.container_roud{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    color:black;
+    background-color:#f5f6f7;
+}
+
 
 @media (min-width: 992px)
 
@@ -44,13 +51,20 @@ td{
 	.contaiter{
 	max-width:960px;
 	}
+	.container_roud{
+	max-width:960px;
+	}
+	
 }
 
 @media (min-width: 768px)
 	{
 		.contaiter{
-		max-width:740px
+		max-width:740px;
 		}
+		.container_roud{
+	max-width:740px;
+	}
 	}
 
 
@@ -60,6 +74,13 @@ td{
 	max-width:540px;
 	margin-left:40%;
 	}
+	.container_roud{
+	max-width:800px;
+	margin-left:30%;
+	margin-top:50px;
+	margin-bottom:50px;
+
+	}
 	
 }
 @media (max-width:500px)
@@ -68,20 +89,41 @@ td{
 	{
 		max-width:50%;
 	}
+	.raiseNextForm{
+		max-width:200px;
+		margin-left:-10px;
+	}
+	
+	.textCom{
+		max-width:200px;
+	}
 }
+
 
 
 
 .raiseNextForm{
 	margin-bottom:10px;
-	width:75%;
+	width:760px;
 	height:50px;
-	border:0px solid #c0c0c0;
+	border:0px solid #ffffff;
 	border-radius:6px;
 	font-size:25px;
 	padding-left:10px;
-	background-color: #1fa67b;
-	color:white;
+	background-color: #ffffff;
+	color:black;
+}
+
+.registerNextForm{
+	margin-bottom:10px;
+	width:75%;
+	height:50px;
+	border:0px solid #ffffff;
+	border-radius:6px;
+	font-size:25px;
+	padding-left:10px;
+	background-color: #ffffff;
+	color:black;
 }
 
 input[type=color]{
@@ -90,16 +132,17 @@ input[type=color]{
 }
 
 .bg-gray{
-	background-color:rgb(248, 249, 250);;
+	background-color:#f5f6f7;
 }
+
 
 input#fileUp {
 	background-color:;
 }
 
 select#startSel {
-	background-color: #1fa67b;
-	color:white;
+	background-color: #ffffff;
+	color:black;
 	border:0px solid #c0c0c0;
 	border-radius:6px;
 }
@@ -136,8 +179,8 @@ input[type="number"]::-webkit-inner-spin-button {
 	border-radius:6px;
 	font-size:25px;
 	padding-left:10px;
-	background-color: #1fa67b;
-	color:white;
+	background-color: white;
+	color:black;
 }
 
 .findNumberBtn{
@@ -149,4 +192,11 @@ input[type="number"]::-webkit-inner-spin-button {
 	border-radius:4px;
 	padding-top:10px;
 	cursor:pointer;
+}
+
+.dotted{
+	border:dotted 2px #c0c0c0;
+	width:100%;
+
+	
 }
