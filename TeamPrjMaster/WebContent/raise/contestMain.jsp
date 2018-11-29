@@ -151,7 +151,7 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
            <div class="contest_category">
-      		<img src="./../resources/png/sand-clock.png"><b>최근에 등록된</b> 공모전 리스트
+      		<img src="./../resources/png/sand-clock.png" id="listImg"><b>최근에 등록된</b> 공모전 리스트
     		</div>
             <div class="card-body">
             
@@ -168,7 +168,7 @@
           </div>       
           <div class="col-lg-4 mr-auto">
             <div class="contest_category">
-      		<img src="./../resources/png/coins.png"><b>상금이 많은</b> 공모전 리스트
+      		<img src="./../resources/png/coins.png" id="listImg"><b>상금이 많은</b> 공모전 리스트
     		</div>
             <div class="card-body">
             

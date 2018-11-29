@@ -218,3 +218,9 @@ textarea#terms {
 	border: solid black 3px;
 }
 
+img#listImg {
+	width: 30px;
+    height: 30px;
+    padding-right:5px;
+}
+
