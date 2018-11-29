@@ -192,7 +192,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div >
-                <a><img  id="list" class="card-img-top" src="http://placehold.it/700x400" alt="" onclick="ss('0')"></a>
+                <a><img  id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('0')"></a>
                 <div class="card-body" id="txt1">
                 
                   <h4 class="card-title">  
@@ -209,7 +209,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div >
-                <a><img id="list" class="card-img-top" src="http://placehold.it/700x400" alt="" onclick="ss('1')"></a>
+                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('1')"></a>
                 <div class="card-body" id="txt2">
                 
                   <h4 class="card-title">  
@@ -226,7 +226,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div >
-                <a><img id="list" class="card-img-top" src="http://placehold.it/700x400" alt="" onclick="ss('2')"></a>
+                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('2')"></a>
                 
                 <div class="card-body" id="txt3">
                   <h4 class="card-title">                
@@ -243,7 +243,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div >
-                <a><img id="list" class="card-img-top" src="http://placehold.it/700x400" alt="" onclick="ss('3')"></a>
+                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('3')"></a>
                 
                 <div class="card-body" id="txt4">
                   <h4 class="card-title">                
@@ -260,7 +260,7 @@
 
              <div class="col-lg-4 col-md-6 mb-4">
               <div >
-                <a><img id="list" class="card-img-top" src="http://placehold.it/700x400" alt="" onclick="ss('4')"></a>
+                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('4')"></a>
                 
                 <div class="card-body" id="txt5">
                   <h4 class="card-title">
@@ -277,7 +277,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div >
-                <a><img id="list" class="card-img-top" src="http://placehold.it/700x400" alt="" onclick="ss('5')"></a>
+                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('5')"></a>
                 
                 <div class="card-body" id="txt6">
                   <h4 class="card-title">                  
