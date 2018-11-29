@@ -118,7 +118,7 @@
         <div>
           <h2 class="mt-4">공모전 개최 약관동의</h2>
           <p>이용약관</p>
-	         <textarea cols=160 rows=20 readonly>
+	         <textarea cols=160 rows=20 readonly style="resize: none" id="terms">
 제1조 
 [용어의 정의] ①본 약관에서 사용되는 용어의 정의는 다음과 같다.
 1. ‘아이디어’라 함은 재산적 가치가 있는 것으로서, 이를 보호할 수 있는 권리가 창작자에게 당연히 발생하거나, 별도의 절차에 의해 창작자가 그
