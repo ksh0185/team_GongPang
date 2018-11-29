@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>SearchPw</title>
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -35,7 +35,7 @@
 							        <input type="submit" id="nextbtn" class="btn btn-custom btn-lg btn-block" value="다음">
 									<br>
 									
-									<a class="forget" data-toggle="modal" data-target=".forget-modal" href="./contestSearchid.jsp" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=510, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;">아이디 찾기</a>					        																								
+									<a class="forget" data-toggle="modal" data-target=".forget-modal" href="./contestSearchid.jsp" onclick="window.open(this.href, 'tistoryThisBlogPopup', 'width=800, height=600, toolbar=no, menubar=no, status=no, scrollbars=no'); return false;">아이디 찾기</a>					        																								
 								<hr>	
 							</form>	
 						</div>
