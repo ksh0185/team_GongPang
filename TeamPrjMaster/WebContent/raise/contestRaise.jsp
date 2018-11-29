@@ -21,9 +21,10 @@
 
     <!-- Custom styles for this template -->
     <link href="./../resources/css/business-frontpage.css" rel="stylesheet">
-    <link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
-    <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
     
+    <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
+    <link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
+    <link rel="stylesheet"  href="./../resources/custom_css/customCss.css">
     
     <script>
     var checked1=false;

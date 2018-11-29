@@ -186,6 +186,10 @@ div {
 	text-align:center;
 	border:1px solid #c0c0c0;
 	border-radius:6px;
+	margin-bottom:-10%;
+	margin-top:10%;
+	background-color:#1fa67b;
+	color:white;
 }
 
 .contest_item:hover {

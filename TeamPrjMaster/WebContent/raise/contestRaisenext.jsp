@@ -23,6 +23,7 @@
     <link href="./../resources/custom_css/customCss.css" rel="styleshet">
     <link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
     <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
+    <link rel="stylesheet"  href="./../resources/custom_css/customCss.css">
     
     <script>
     var checked1=false;
@@ -31,8 +32,7 @@
     
     	function colChk()
     	{
-    		var colTxt = document.getElementById("colTxt");
-    		var col = document.getElementById("color");
+    		
     		colTxt.value = col.value;
     	}
     	
@@ -53,6 +53,8 @@
     		check1 = document.getElementById("check1");
     		check2 = document.getElementById("check2");
     		check3 = document.getElementById("check3");
+    		colTxt = document.getElementById("colTxt");
+    		col = document.getElementById("color");
     	}
     
     	function checkDong(idx) {
@@ -99,7 +101,7 @@
 	
   </head>
 
-  <body>
+  <body onLoad="init()">
 <form action="./contestRaisecom.jsp">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -130,107 +132,46 @@
       </div>
     </nav>
 
-    <!-- Header with Background Image -->
-      <header class="business-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="display-3 text-center text-white mt-4">공팡</h1>
-          	<div class="schTable">
-          	<input type="text" placeholder="검색" class="schTxt">
 
-          	<img src="./../resources/png/searchicon.png" class="schImg" onClick="schClick()">
-          	
-          	</div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
+  <div class="bg-gray">
+    <div class="contaiter">
 
       <div class="row">
       
           <h2 class="mt-4">공모전 개최 상세정의</h2>
 
-          <table class="thead-dark">
+          <table>
+          	
           	<tr>
-          		<td colspan="2"><h6 class="mt-4">게시글 작성 전 이용약관을 참고하세요
-			</h6><br><br></td>
+          		<th>제목<br><input type="text" class="raiseNextForm" required></th>
+          	</tr>		       	
           	<tr>
-          	<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>제목</th><td><input type="text" required></td>
+          		<th>디자인 목적<br><input type="text" class="raiseNextForm" required></th>
           	</tr>		       	
           		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>디자인 목적</th><td><input type="text" required></td>
+          		<th>디자인 색상<br><input class="textResult" type ="text" id="colTxt" readonly><input type="color" name="favcolor" id="color" onChange="colChk()"></th>		
           	</tr>
           		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>디자인 색상</th>
-          		<td><input class="textResult" type ="text" id="colTxt" readonly>
-          		<input type="color" name="favcolor" value="#ff0000" id="color" onChange="colChk()">
-				</td>
+          		<th>디자인 성격<br><input type="text" class="raiseNextForm" required></th>
+          	</tr>	
+          		<tr>
+          		<th>세부사항<br><textarea style="resize: none" class="textCom" required></textarea></th>
           	</tr>
           		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>디자인 성격</th><td><input type="text" required></td>
-          	</tr>
-          		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>세부사항</th><td><textarea style="resize: none" class="textCom" required></textarea></td>
-          	</tr>
-          		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>공모전 기간</th>
-          		<td>
-          		
-          			<select name=years>
+          		<th>공모전 기간<br>
+          		<select name=years>
           				<option value=1>2018</option>
           				<option value=2>2019</option>
           			</select>
           			<select name=month>
-          				<option value=1>1</option>
-          				<option value=2>2</option>
-          				<option value=3>3</option>
-          				<option value=4>4</option>
-          				<option value=5>5</option>
-          				<option value=6>6</option>
-          				<option value=7>7</option>
-          				<option value=8>8</option>
-          				<option value=9>9</option>
-          				<option value=10>10</option>
-          				<option value=11>11</option>
-          				<option value=12>12</option>
+          				<% for(int j=1;j<=12; j++){ %>
+          				<option value=1><%=j %></option>
+          				<%} %>
           			</select>
           			<select name=day>
-          				<option value=1>1</option>
-          				<option value=1>2</option>
-          				<option value=1>3</option>
-          				<option value=1>4</option>
-          				<option value=1>5</option>
-          				<option value=1>6</option>
-          				<option value=1>7</option>
-          				<option value=1>8</option>
-          				<option value=1>9</option>
-          				<option value=1>10</option>
-          				<option value=1>11</option>
-          				<option value=1>12</option>
-          				<option value=1>13</option>
-          				<option value=1>14</option>
-          				<option value=1>15</option>
-          				<option value=1>16</option>
-          				<option value=1>17</option>
-          				<option value=1>18</option>
-          				<option value=1>19</option>
-          				<option value=1>20</option>
-          				<option value=1>21</option>
-          				<option value=1>22</option>
-          				<option value=1>23</option>
-          				<option value=1>24</option>
-          				<option value=1>25</option>
-          				<option value=1>26</option>
-          				<option value=1>27</option>
-          				<option value=1>28</option>
-          				<option value=1>29</option>
-          				<option value=1>30</option>
-          				<option value=1>31</option>
+          			<% for(int i=1; i<=31; i++) { %>
+          				<option value=1><%=i %></option>
+          				<%} %>
           			</select>
           			<br>
           			 <select name=years>
@@ -238,60 +179,23 @@
           				<option value=2>2019</option>
           			</select>
           			<select name=month>
-          				<option value=1>1</option>
-          				<option value=2>2</option>
-          				<option value=3>3</option>
-          				<option value=4>4</option>
-          				<option value=5>5</option>
-          				<option value=6>6</option>
-          				<option value=7>7</option>
-          				<option value=8>8</option>
-          				<option value=9>9</option>
-          				<option value=10>10</option>
-          				<option value=11>11</option>
-          				<option value=12>12</option>
+          			<% for(int j=1;j<=12; j++){ %>
+          				<option value=1><%=j %></option>
+          				<%} %>
           			</select>
           			<select name=day>
-          				<option value=1>1</option>
-          				<option value=1>2</option>
-          				<option value=1>3</option>
-          				<option value=1>4</option>
-          				<option value=1>5</option>
-          				<option value=1>6</option>
-          				<option value=1>7</option>
-          				<option value=1>8</option>
-          				<option value=1>9</option>
-          				<option value=1>10</option>
-          				<option value=1>11</option>
-          				<option value=1>12</option>
-          				<option value=1>13</option>
-          				<option value=1>14</option>
-          				<option value=1>15</option>
-          				<option value=1>16</option>
-          				<option value=1>17</option>
-          				<option value=1>18</option>
-          				<option value=1>19</option>
-          				<option value=1>20</option>
-          				<option value=1>21</option>
-          				<option value=1>22</option>
-          				<option value=1>23</option>
-          				<option value=1>24</option>
-          				<option value=1>25</option>
-          				<option value=1>26</option>
-          				<option value=1>27</option>
-          				<option value=1>28</option>
-          				<option value=1>29</option>
-          				<option value=1>30</option>
-          				<option value=1>31</option>
-          			</select>
-
-          		</td>
+          			
+          			<% for(int i=1; i<=31; i++) { %>
+          				<option value=1><%=i %></option>
+          				<%} %>
+          			</select></th>
+          		
           	</tr>
           	<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>상금</th><td><input type="text" required> 원</td>
+          		<th>상금<br><input type="text" class="raiseNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><FONT COLOR=BLACK> * </FONT>첨부파일</th><td><input type="file" required></td>
+          		<th>대문사진<br><input type="file"required></th>
           	</tr>
           </table>
         </div>
@@ -299,8 +203,8 @@
       <br>
       <!-- /.row -->
 		<div class="row">
-			<h6 class="mt-4">위의 상기 내용에 동의하여 공모전 개최를 진행하고자 하면 개최단계로 이동하세요.
-			</h6>
+			<h5>계속해서 공모전 개최를 진행하고자 하면 이동하세요.<br>
+			</h5>
 			 <p>
              <input type="submit" class="btn btn-primary btn-lg" value="제출하기&raquo;"> 
           </p>
@@ -308,6 +212,7 @@
 
       <!-- /.row -->
 
+    </div>
     </div>
     <!-- /.container -->
 

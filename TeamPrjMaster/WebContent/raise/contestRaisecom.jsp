@@ -165,8 +165,10 @@
         	</div>
         </div>
       <!-- /.row -->
+		
 		<div class="row">
-			<h6 class="mt-4">공모전 개최를 마치고 게시글 리스트를 확인 하시겠으면 이동하세요.
+		<br><br><br><br><br><br>
+		<h6 class="mt-4">공모전 개최를 마치고 게시글 리스트를 확인 하시겠으면 이동하세요.
 			</h6>
 			 <p>
              <input type="submit" class="btn btn-primary btn-lg" value="리스트확인&raquo;"> 
