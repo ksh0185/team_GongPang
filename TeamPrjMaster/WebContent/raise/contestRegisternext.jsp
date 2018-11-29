@@ -132,7 +132,7 @@
     </nav>
 
    
-
+	<div class="bg-gray">
     <!-- Page Content -->
     <div class="contaiter">
 
@@ -142,28 +142,29 @@
           <table class="thead-dark">
           	
           	<tr>
-          		<th><br>아이디<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>아이디<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>비밀번호<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>비밀번호<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>비밀번호 확인<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>비밀번호 확인<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>이름<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>이름<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>대화명<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>대화명<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>이메일<br><input type="text" class="raiseNextForm" required><br><input type="button" class="emailSubmit" value="인증"></th>
+          		<th><br>이메일<br><input type="text" class="registerNextForm" required><br>
+          		<input type="button" class="emailSubmit" value="인증 메일 전송"></th>
           	</tr>
           	<tr>
-          		<th><br>인증번호<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>인증번호<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>전화번호<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>전화번호<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
           		<th><br>프로필<br><input type="file" required></th>
@@ -179,6 +180,7 @@
           	
           
           </table>
+           <div class="g-recaptcha" data-sitekey="6Lf3wH0UAAAAAPi82Mpbb-W-352kVRIJ6vnAcFXe"></div>
         </div>
 
       <br>
@@ -193,6 +195,7 @@
 
       <!-- /.row -->
 
+    </div>
     </div>
     <!-- /.container -->
 
@@ -210,6 +213,14 @@
 
 
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+		grecaptcha.ready(function() {
+		grecaptcha.execute('6Lddwn0UAAAAAIXKERFrTUQhtyQ8IQKwhLybXWkZ', {action: 'action_name'})
+		.then(function(token) {
+		// Verify the token on the server.
+		});
+		});
 <script>
     function sample6_execDaumPostcode() {
         new daum.Postcode({
@@ -252,6 +263,8 @@
             }
         }).open();
     }
+    
+    
 </script>
 	</form>
   </body>
