@@ -152,6 +152,7 @@
           		<tr>
           		<th><br>디자인 성격<br><input type="text" class="raiseNextForm" required></th>
           	</tr>	
+          			
           		<tr>
           		<th><br>세부사항<br><textarea style="resize: none" class="textCom" required></textarea></th>
           	</tr>
@@ -188,6 +189,9 @@
           				<%} %>
           			</select></th>
           		
+          	</tr>
+          	<tr>
+          		<th><br>참가자 수 제한<br><input type="text" class="raiseNextForm" required placeholder="명"></th>
           	</tr>
           	<tr>
           		<th><br>상금<br><input type="number" class="raiseNextForm" required placeholder="원"></th>
