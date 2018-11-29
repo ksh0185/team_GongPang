@@ -153,7 +153,6 @@ div {
     letter-spacing: -1px;
     text-align:center;
    /*  background-color:	#F5F5DC; */
-    
 }
 .contest_item {
     background-color: white;
@@ -184,8 +183,17 @@ div {
 
 .rankingTitle{
 	text-align:center;
-	border:1px solid #c0c0c0;
-	border-radius:6px;
+}
+div#rankingId {
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	color:#1fa67b;
+	
+}
+div#rankingMoney {
+	text-align:center;
+	font-size:25px;
 }
 
 .contest_item:hover {

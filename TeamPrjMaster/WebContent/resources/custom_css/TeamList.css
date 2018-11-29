@@ -56,3 +56,16 @@ img#list {
 #txt1,#txt2,#txt3,#txt4,#txt5,#txt6{
 	text-align:center;
 }
+
+div#menuList {
+	text-align:center;
+}
+a#menuList2 {
+	color:#1fa67b;
+	font-size:18px;
+	font-weight:bold;
+}
+#menuList2:hover {
+transform: scale( 1.05 );
+background-color:#d9ece6;
+}

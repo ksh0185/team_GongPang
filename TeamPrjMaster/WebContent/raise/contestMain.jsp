@@ -84,13 +84,13 @@
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           
-            <a href="#"><img class="card-img-top" src="./../resources/png/cateicon1.png" alt=""></a>
+            <a href="#"><img class="card-img-top" src="./../resources/png/mainTest-01.png" alt=""></a>
            
        
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         
-            <a href="#"><img class="card-img-top" src="./../resources/png/cateicon1.png" alt=""></a>
+            <a href="#"><img class="card-img-top" src="./../resources/png/mainTest-02.png" alt=""></a>
         
    
         </div>
@@ -192,183 +192,52 @@
     
     
     <div class="text-black">
+        <hr>
    
       <div class="container"> 
-        <hr>
-         <div class="row">
-    	　이달의<b>　공팡이　</b> 랭킹
-    </div>
-        <div class="row">
+         <div class="row">이달의<b>　공팡이　</b> 랭킹</div>
+    
+   <div class="row">
+        
           <div class="col-lg-4 ml-auto portfolio-item">
              <div class="panel-body">
-              <div class="rankingTitle">
-             					이미지
-             				</div>
                             <div class="list-group">
-                           
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i> Server Crashed!
-                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i> Server Not Responding
-                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i> New Order Placed
-                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-money fa-fw"></i> Payment Received
-                                    <span class="pull-right text-muted small"><em>Yesterday</em>
-                                    </span>
-                                </a>
+                                <div class="list-group-item">
+                               	 <div class="rankingTitle"><img src="./../resources/png/silver-medal.png"></div>
+                          		 <div id=rankingId>계정명</div>
+                          		 <div id=rankingMoney>$$$</div>
+                                </div>                    
                             </div>
-           
-                        </div>     
-       				</div>
+               </div>  
+       		</div>
        				
-       				<div class="col-lg-4 ml-auto portfolio-item">
-             <div class="panel-body">
-             				<div class="rankingTitle">
-             					로고
-             				</div>
-                            <div class="list-group">
-                                <a href="#" class="list-group-item">
-                                	
-                                    <i class="fa fa-comment fa-fw"></i> 로고
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i> Server Crashed!
-                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i> Server Not Responding
-                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i> New Order Placed
-                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-money fa-fw"></i> Payment Received
-                                    <span class="pull-right text-muted small"><em>Yesterday</em>
-                                    </span>
-                                </a>
-                            </div>
-           
-                        </div>     
-       				</div>
        				
-       				<div class="col-lg-4 ml-auto portfolio-item">
+       		<div class="col-lg-4 ml-auto portfolio-item">
              <div class="panel-body">
-              <div class="rankingTitle">
-             					이미지
-             				</div>
                             <div class="list-group">
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i> Server Crashed!
-                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i> Server Not Responding
-                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i> New Order Placed
-                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-money fa-fw"></i> Payment Received
-                                    <span class="pull-right text-muted small"><em>Yesterday</em>
-                                    </span>
-                                </a>
+                                <div class="list-group-item">
+                               	 <div class="rankingTitle"><img src="./../resources/png/winner.png"></div>
+                          		 <div id=rankingId>계정명</div>
+                          		 <div id=rankingMoney>$$$</div>
+                                </div>                    
                             </div>
-           
-                        </div>     
-       				</div>
-       			</div>
+               </div>  
+       		</div>
+       				
+       				
+       <div class="col-lg-4 ml-auto portfolio-item">
+             <div class="panel-body">
+                            <div class="list-group">
+                                <div class="list-group-item">
+                               	 <div class="rankingTitle"><img src="./../resources/png/bronze-medal.png"></div>
+                          		 <div id=rankingId>계정명</div>
+                          		 <div id=rankingMoney>$$$</div>
+                                </div>                    
+                            </div>
+               </div>  
+       		</div>
+       		
+    </div>
        			      
    			</div>
     </div>
