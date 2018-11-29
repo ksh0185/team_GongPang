@@ -1,8 +1,11 @@
 .textCom{
 	width:75%;
-	
+	background-color: #1fa67b;
 	border-radius:6px;
 	height:200px;
+	border:0px;
+	color:white;
+	font-size:18px;
 }
 
 td{
@@ -62,7 +65,6 @@ td{
 
 
 .raiseNextForm{
-	
 	margin-bottom:10px;
 	width:75%;
 	height:50px;
@@ -70,7 +72,8 @@ td{
 	border-radius:6px;
 	font-size:25px;
 	padding-left:10px;
-	
+	background-color: #1fa67b;
+	color:white;
 }
 
 input[type=color]{
@@ -79,7 +82,28 @@ input[type=color]{
 }
 
 .bg-gray{
-	background-color:#e7e7e7;
+	background-color:rgb(248, 249, 250);;
 }
 
+input#fileUp {
+	background-color:;
+}
 
+select#startSel {
+	background-color: #1fa67b;
+	color:white;
+	border:0px solid #c0c0c0;
+	border-radius:6px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::placeholder {
+  color: #e0e0e0;
+  margin-left: 90%;
+  font-size:20px;
+}

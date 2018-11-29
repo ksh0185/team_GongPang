@@ -53,12 +53,12 @@
     		if(idx==0){
     		if(checked1==false)
     			{
-    				check1.style.backgroundColor = "#0075ff";
+    				check1.style.backgroundColor = "#1fa67b";
     				checked1=true;
     			}
     		else
     			{
-    				check1.style.backgroundColor = "#c0c0c0";
+    				check1.style.backgroundColor = "#1fa67b";
     				checked1=false;
     			}
     		}
@@ -66,12 +66,12 @@
     		if(idx==1){
         		if(checked2==false)
         			{
-        				check2.style.backgroundColor = "#0075ff";
+        				check2.style.backgroundColor = "#1fa67b";
         				checked2=true;
         			}
         		else
         			{
-        				check2.style.backgroundColor = "#c0c0c0";
+        				check2.style.backgroundColor = "#1fa67b";
         				checked2=false;
         			}
         		}
@@ -79,12 +79,12 @@
     		if(idx==2){
         		if(checked3==false)
         			{
-        				check3.style.backgroundColor = "#0075ff";
+        				check3.style.backgroundColor = "#1fa67b";
         				checked3=true;
         			}
         		else
         			{
-        				check3.style.backgroundColor = "#c0c0c0";
+        				check3.style.backgroundColor = "#1fa67b";
         				checked3=false;
         			}
         		}

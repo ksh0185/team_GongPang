@@ -137,53 +137,51 @@
     <div class="contaiter">
 
       <div class="row">
-      
-          <h2 class="mt-4">공모전 개최 상세정의</h2>
 
           <table>
           	
           	<tr>
-          		<th>제목<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>제목<br><input type="text" class="raiseNextForm" required></th>
           	</tr>		       	
           	<tr>
-          		<th>디자인 목적<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>디자인 목적<br><input type="text" class="raiseNextForm" required></th>
           	</tr>		       	
           		<tr>
-          		<th>디자인 색상<br><input class="textResult" type ="text" id="colTxt" readonly><input type="color" name="favcolor" id="color" onChange="colChk()"></th>		
+          		<th><br>디자인 색상<br><input class="raiseNextForm" type ="text" id="colTxt" ></th>		
           	</tr>
           		<tr>
-          		<th>디자인 성격<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>디자인 성격<br><input type="text" class="raiseNextForm" required></th>
           	</tr>	
           		<tr>
-          		<th>세부사항<br><textarea style="resize: none" class="textCom" required></textarea></th>
+          		<th><br>세부사항<br><textarea style="resize: none" class="textCom" required></textarea></th>
           	</tr>
           		<tr>
-          		<th>공모전 기간<br>
-          		<select name=years>
+          		<th><br>공모전 기간<br>시작 : 
+          		<select name=years id="startSel">
           				<option value=1>2018</option>
           				<option value=2>2019</option>
           			</select>
-          			<select name=month>
+          			<select name=month id="startSel">
           				<% for(int j=1;j<=12; j++){ %>
           				<option value=1><%=j %></option>
           				<%} %>
           			</select>
-          			<select name=day>
+          			<select name=day id="startSel">
           			<% for(int i=1; i<=31; i++) { %>
           				<option value=1><%=i %></option>
           				<%} %>
           			</select>
-          			<br>
-          			 <select name=years>
+          			<br>마감 : 
+          			 <select name=years id="startSel">
           				<option value=1>2018</option>
           				<option value=2>2019</option>
           			</select>
-          			<select name=month>
+          			<select name=month id="startSel">
           			<% for(int j=1;j<=12; j++){ %>
           				<option value=1><%=j %></option>
           				<%} %>
           			</select>
-          			<select name=day>
+          			<select name=day id="startSel">
           			
           			<% for(int i=1; i<=31; i++) { %>
           				<option value=1><%=i %></option>
@@ -192,10 +190,10 @@
           		
           	</tr>
           	<tr>
-          		<th>상금<br><input type="text" class="raiseNextForm" required></th>
+          		<th><br>상금<br><input type="number" class="raiseNextForm" required placeholder="원"></th>
           	</tr>
           	<tr>
-          		<th>대문사진<br><input type="file"required></th>
+          		<th><br>대문사진<br><input type="file" required id="fileUp"></th>
           	</tr>
           </table>
         </div>
@@ -203,7 +201,7 @@
       <br>
       <!-- /.row -->
 		<div class="row">
-			<h5>계속해서 공모전 개최를 진행하고자 하면 이동하세요.<br>
+			<h5><br>계속해서 공모전 개최를 진행하고자 하면 이동하세요.<br>
 			</h5>
 			 <p>
              <input type="submit" class="btn btn-primary btn-lg" value="제출하기&raquo;"> 
