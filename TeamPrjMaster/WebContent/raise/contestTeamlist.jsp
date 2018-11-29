@@ -143,17 +143,17 @@
 
         <div class="col-lg-3">
 
-          <div class="list-group">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
-            <a href="#" class="list-group-item">Category 4</a>
-            <a href="#" class="list-group-item">Category 5</a>
-            <a href="#" class="list-group-item">Category 6</a>
-            <a href="#" class="list-group-item">Category 7</a>
-            <a href="#" class="list-group-item">Category 8</a>
-            <a href="#" class="list-group-item">Category 9</a>
-            <a href="#" class="list-group-item">Category 10</a>
+          <div class="list-group" id="menuList">
+            <a id="menuList2" href="#" class="list-group-item">일러스트</a>
+            <a id="menuList2" href="#" class="list-group-item">캐릭터</a>
+            <a id="menuList2" href="#" class="list-group-item">의상</a>
+            <a id="menuList2" href="#" class="list-group-item">네이밍</a>
+            <a id="menuList2" href="#" class="list-group-item">인테리어</a>
+            <a id="menuList2" href="#" class="list-group-item">제품</a>
+            <a id="menuList2" href="#" class="list-group-item">산업디자인</a>
+            <a id="menuList2" href="#" class="list-group-item">켈리그라피</a>
+            <a id="menuList2" href="#" class="list-group-item">웹모바일</a>
+            <a id="menuList2"  href="#" class="list-group-item">로고</a>
           </div>
 
         </div>
