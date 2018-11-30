@@ -171,10 +171,10 @@
           	</tr>
           	<tr>
           		<th><br>주소<br>
-          		    <input type="text" class="jusoFrom" id="sample6_postcode" placeholder="우편번호">
-					<input type="button" class="findNumberBtn" onclick="sample6_execDaumPostcode()" value="우편번호 찾기"><br>
-					<input type="text" class="jusoFrom" id="sample6_address" placeholder="주소">
-					<input type="text" class="jusoFrom" id="sample6_address2" placeholder="상세주소">
+          		  <input type="text" class="jusoFrom" id="sample6_postcode" placeholder="우편번호">
+				  <input type="button" class="findNumberBtn" onclick="sample6_execDaumPostcode()" value="우편번호 찾기"><br>
+				  <input type="text" class="jusoFrom" id="sample6_address" placeholder="주소">
+				  <input type="text" class="jusoFrom" id="sample6_address2" placeholder="상세주소">
           		</th>
           	</tr>
           	
@@ -211,9 +211,9 @@
     <script src="./../resources/vendor/jquery/jquery.min.js"></script>
     <script src="./../resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-
-<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+
     <script>
 		grecaptcha.ready(function() {
 		grecaptcha.execute('6Lddwn0UAAAAAIXKERFrTUQhtyQ8IQKwhLybXWkZ', {action: 'action_name'})
@@ -221,6 +221,8 @@
 		// Verify the token on the server.
 		});
 		});
+	</script>
+	
 <script>
     function sample6_execDaumPostcode() {
         new daum.Postcode({
@@ -265,7 +267,7 @@
     }
     
     
-</script>
+	</script>
 	</form>
   </body>
 
