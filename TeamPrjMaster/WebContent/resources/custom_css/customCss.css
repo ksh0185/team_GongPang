@@ -101,6 +101,9 @@ td{
 	textarea#terms{
 		max-width:340px;
 	}
+	.container{
+		max-width:340px;
+	}
 }
 
 
