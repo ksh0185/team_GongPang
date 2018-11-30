@@ -14,7 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="./../resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+	
     <!-- Custom styles for this template -->
     
 
@@ -23,6 +23,7 @@
     <link href="./../resources/css/blog-home.css" rel="stylesheet">
     
 	<link rel="stylesheet"  href="./../resources/custom_css/MyPage.css">
+	<link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
 
   </head>
 
@@ -80,9 +81,9 @@
           <div class="card mb-4">
             <div class="card-body">
               <h2 class="card-title">개최한 공모전</h2>
-              <p class="card-text">1</p>
-              <p class="card-text">2</p>
-              <p class="card-text">3</p>
+              <a href="contestHostpage.jsp"><div class="contest_item">[제주흑돈하루로고] [10명] [200,000만원]</div></a>
+              <a href="contestHostpage.jsp"><div class="contest_item">[엉터리생고기로고] [25명] [400,000만원]</div></a>
+              <a href="contestHostpage.jsp"><div class="contest_item">[한국ICT융합협동조합 홈페이지] [50명] [800,000만원]</div></a>
               <a href="#" class="btn btn-primary">Read More &rarr;</a>
             </div>
           </div>
