@@ -25,79 +25,6 @@
     <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
     <link rel="stylesheet"  href="./../resources/custom_css/customCss.css">
     
-    <script>
-    var checked1=false;
-    var checked2=false;
-    var checked3=false;
-    
-    	function colChk()
-    	{
-    		
-    		colTxt.value = col.value;
-    	}
-    	
-    	function nextPage()
-    	{
-    		if(checked1==true && checked2==true && checked3==true)
-    			{
-    				alert("다음페이지로");
-    			}
-    		else
-    			{
-    				alert("동의되지 않은 맥락이 존재합니다");
-    			}
-    	}
-    
-    	function init()
-    	{
-    		check1 = document.getElementById("check1");
-    		check2 = document.getElementById("check2");
-    		check3 = document.getElementById("check3");
-    		colTxt = document.getElementById("colTxt");
-    		col = document.getElementById("color");
-    	}
-    
-    	function checkDong(idx) {
-    		if(idx==0){
-    		if(checked1==false)
-    			{
-    				check1.style.backgroundColor = "#0075ff";
-    				checked1=true;
-    			}
-    		else
-    			{
-    				check1.style.backgroundColor = "#c0c0c0";
-    				checked1=false;
-    			}
-    		}
-    		
-    		if(idx==1){
-        		if(checked2==false)
-        			{
-        				check2.style.backgroundColor = "#0075ff";
-        				checked2=true;
-        			}
-        		else
-        			{
-        				check2.style.backgroundColor = "#c0c0c0";
-        				checked2=false;
-        			}
-        		}
-    		
-    		if(idx==2){
-        		if(checked3==false)
-        			{
-        				check3.style.backgroundColor = "#0075ff";
-        				checked3=true;
-        			}
-        		else
-        			{
-        				check3.style.backgroundColor = "#c0c0c0";
-        				checked3=false;
-        			}
-        		}
-    	}
-    </script>
 	
   </head>
 
@@ -141,7 +68,7 @@
 			</h3>
 		</div>
 		<div class="row">
-			<h3>공모전 정보</h3>
+			<h3>공모전 개최</h3>
 		</div>
 		<hr>
           <table>

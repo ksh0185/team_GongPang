@@ -23,6 +23,7 @@
     <link href="./../resources/css/business-frontpage.css" rel="stylesheet">
     <link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
     <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
+    <link rel="stylesheet"  href="./../resources/custom_css/customCss.css">
     
     
     <script>
@@ -133,8 +134,8 @@
         <div>
           <h2 class="mt-4">회원가입 약관동의</h2>
           
-          <p>이용약관</p>
-	         <textarea cols=160 rows=12 readonly style="resize: none" id="terms"> 
+          <p>* 이용약관</p>
+	         <textarea readonly style="resize: none" id="terms"> 
 제 1장 총칙
 
 제 1 조(목적)
@@ -284,8 +285,8 @@
       <br>
       <div class="row">
         <div>
-          <p>개인정보 수집 및 이용에 대한 안내</p>
-	         <textarea cols=160 rows=12 readonly style="resize: none" id="terms"> 
+          <p>* 개인정보 수집 및 이용에 대한 안내</p>
+	         <textarea style="resize: none" id="terms"> 
 가. 개인정보의 수집 및 이용 목적
 ① 국가공간정보포털은 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보 보호법 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.
 1. 국가공간정보포털 서비스 제공을 위한 회원관리

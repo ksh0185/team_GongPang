@@ -118,7 +118,7 @@
       <div class="row">
         <div>
           <h2 class="mt-4">공모전 개최 약관동의</h2>
-          <p>이용약관</p>
+          <p>* 이용약관</p>
 	         <textarea readonly style="resize: none" id="terms">
 제1조 
 [용어의 정의] ①본 약관에서 사용되는 용어의 정의는 다음과 같다.
