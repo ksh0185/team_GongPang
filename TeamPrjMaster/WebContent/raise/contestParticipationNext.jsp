@@ -60,23 +60,6 @@
       </div>
     </nav>
 
-    <!-- Header with Background Image -->
-    <header class="business-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="display-3 text-center text-white mt-4">공팡</h1>
-          	<div class="schTable">
-          	<input type="text" placeholder="검색" class="schTxt">
-
-          	<img src="./../resources/png/searchicon.png" class="schImg" onClick="schClick()">
-          	
-          	</div>
-          </div>
-        </div>
-      </div>
-    </header>
-
     <!-- Page Content -->
     <div class="container_roud">
 
