@@ -154,17 +154,11 @@
           		<th><br>이름<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
-          		<th><br>대화명<br><input type="text" class="registerNextForm" required></th>
-          	</tr>
-          	<tr>
           		<th><br>이메일<br><input type="text" class="registerNextForm" required><br>
           		<input type="button" class="emailSubmit" value="인증 메일 전송"></th>
           	</tr>
           	<tr>
           		<th><br>인증번호<br><input type="text" class="registerNextForm" required></th>
-          	</tr>
-          	<tr>
-          		<th><br>전화번호<br><input type="text" class="registerNextForm" required></th>
           	</tr>
           	<tr>
           		<th><br>프로필<br><input type="file" required></th>

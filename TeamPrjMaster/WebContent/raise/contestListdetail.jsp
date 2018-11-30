@@ -23,9 +23,9 @@
     <link href="./../resources/css/business-frontpage.css" rel="stylesheet">
     
 
-	<link rel="stylesheet"  href="./../resources/custom_css/TeamListdetail.css">
 	<link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
 	<link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
+	<link rel="stylesheet"  href="./../resources/custom_css/TeamListdetail.css">
 	<script>
     	function schClick()
     	{
@@ -95,9 +95,10 @@
       <!-- Portfolio Item Row -->
       <div class="row">
 
-        <!-- <div class="col-md-8">
+        <div class="col-md-8">
           <img class="img-fluid" src="http://placehold.it/750x500" alt="">
-        </div> -->
+        </div>
+        
 
         <div class="col-md-4">
           <h3 class="my-3">공모전명</h3>
@@ -152,12 +153,7 @@
 								</div>
 							</div>
 							
-							<div class="row">
-								<div class="col-sm-12">
-									<input style="display:inline;" type="checkbox" name="secret" id="secret_" class="checkbox" />
-									<span>이 댓글을 비밀 댓글로</span>
-								</div>
-							</div>
+
 						
 						<div class="row">
 							<div class="col-sm-12">

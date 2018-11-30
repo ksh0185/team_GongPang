@@ -17,72 +17,13 @@
     <link href="./../resources/vendor/bootstrap/css/bootstrap.min.cover.css" rel="stylesheet">
     
     <link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
-    <!-- <link href="./../resources/css/shop-homepage.css" rel="stylesheet"> -->
+    <link href="./../resources/css/shop-homepage.css" rel="stylesheet">
     <link href="./../resources/css/business-frontpage.css" rel="stylesheet">
     <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
 
 
 	 <script>
-	var objtxt;
-	var i;
-	var objstar;
-	var state = new Array(); //배열 선언
-		
-	function init(){
-		objtxt=document.getElementsByClassName("card-body");
-		objstar=document.getElementsByClassName("str");
-		
-		objx=document.getElementById("x");
-		
 
-		for(i=0;i<objtxt.length;i++){
-			 objtxt[i].style.display="none";
-		}
-		
-		for(i=0;i<objstar.length;i++){ //배열 초기화
-			state[i]=0;
-		}
-
-	}
-
-/* ====================================================================================================================== */			
-	
-	function ss(idx){
-			for(i=0;i<objtxt.length;i++){
-				objtxt[i].style.display="none";
-				if(i==idx){	
-				objtxt[idx].style.display="block";
-				continue;
-				}
-			 }
-	}
-	
-	function star(idx) {	
-		
-		
-		if (state[idx]==0)
-		{
-			objstar[idx].src="./../resources/png/star2.jpg";
-			state[idx]=1;
-		}
-		else if(state[idx]==1)
-		{
-			
-			objstar[idx].src="./../resources/png/star1.jpg";
-			state[idx]=0;
-		}	
-	}
-	
-	
-	function cl() {
-		 for(i=0;i<objtxt.length;i++){
-			 objtxt[i].style.display="none";
-		 }
-	}
-	function schClick()
-	{
-		alert("확인");
-	}
 	
     </script>
 
@@ -190,106 +131,94 @@
 
           <div class="row">
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div >
-                <a><img  id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('0')"></a>
-                <div class="card-body" id="txt1">
-                
-                  <h4 class="card-title">  
-                  <img src="./../resources/png/x.jpg" id="x" onclick="cl()" class="xcl">
-                  <a href="#">제목1</a>
-                  </h4>
-                  <h5>$ 가격</h5>
-                  <p class="card-text">세부내용1</p>
-                  <img src="./../resources/png/star1.jpg" id="str1" onclick="star('0')" class="str">
-                  <input type="submit" id="btn" value="상세보기">
-                </div>
-              </div>
+           <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <div class="card h-100">
+	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title"><a href="#" id="aTitle">제목1</a></h4>
+		                  <p class="card-text">부가설명1</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div >
-                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('1')"></a>
-                <div class="card-body" id="txt2">
-                
-                  <h4 class="card-title">  
-                  <img src="./../resources/png/x.jpg" id="x" onclick="cl()" class="xcl">
-                  <a href="#">제목2</a>
-                  </h4>
-                  <h5>$ 가격</h5>
-                  <p class="card-text">세부내용2</p>
-                  <img src="./../resources/png/star1.jpg" id="str2" onclick="star('1')" class="str">
-                  <input type="submit" id="btn" value="상세보기">
-                </div>
-              </div>
+            <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <div class="card h-100">
+	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title"><a href="#" id="aTitle">제목2</a></h4>
+		                  <p class="card-text">부가설명2</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div >
-                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('2')"></a>
-                
-                <div class="card-body" id="txt3">
-                  <h4 class="card-title">                
-                  <img src="./../resources/png/x.jpg" id="x" onclick="cl()" class="xcl">
-                  <a href="#">제목3</a>
-                  </h4>
-                  <h5>$ 가격</h5>
-                  <p class="card-text">세부내용3</p>
-                  <img src="./../resources/png/star1.jpg" id="str3" onclick="star('2')" class="str">
-                  <input type="submit" id="btn" value="상세보기">
-                </div>
-              </div>
+            <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <div class="card h-100">
+	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title"><a href="#" id="aTitle">제목3</a></h4>
+		                  <p class="card-text">부가설명3</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div >
-                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('3')"></a>
-                
-                <div class="card-body" id="txt4">
-                  <h4 class="card-title">                
-                  <img src="./../resources/png/x.jpg" id="x" onclick="cl()" class="xcl">
-                  <a href="#">제목4</a>
-                  </h4>
-                  <h5>$ 가격</h5>
-                  <p class="card-text">세부내용4</p>
-                  <img src="./../resources/png/star1.jpg" id="str4" onclick="star('3')" class="str">
-                 <input type="submit" id="btn" value="상세보기">
-                </div>
-              </div>
+             <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <div class="card h-100">
+	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title"><a href="#" id="aTitle">제목4</a></h4>
+		                  <p class="card-text">부가설명4</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
             </div>
 
-             <div class="col-lg-4 col-md-6 mb-4">
-              <div >
-                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('4')"></a>
-                
-                <div class="card-body" id="txt5">
-                  <h4 class="card-title">
-                  <img src="./../resources/png/x.jpg" id="x" onclick="cl()" class="xcl">
-                  <a href="#">제목5</a>
-                  </h4>
-                  <h5>$ 가격</h5>
-                  <p class="card-text">세부내용5</p>
-                  <img src="./../resources/png/star1.jpg" id="str5" onclick="star('4')" class="str">
-                  <input type="submit" id="btn" value="상세보기">
-                </div>
-              </div>
+             <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <div class="card h-100">
+	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title"><a href="#" id="aTitle">제목5</a></h4>
+		                  <p class="card-text">부가설명5</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div >
-                <a><img id="list" class="card-img-top2" src="http://placehold.it/700x400" alt="" onclick="ss('5')"></a>
-                
-                <div class="card-body" id="txt6">
-                  <h4 class="card-title">                  
-                  <img src="./../resources/png/x.jpg" id="x" onclick="cl()" class="xcl">
-                  <a href="#">제목6</a>
-                  </h4>
-                  <h5>$ 가격</h5>
-                  <p class="card-text">세부내용6</p>
-                  <img src="./../resources/png/star1.jpg" id="str6" onclick="star('5')" class="str">
-                 <input type="submit" id="btn" value="상세보기">
-                </div>
-              </div>
+            <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <div class="card h-100">
+	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title"><a href="#" id="aTitle">제목6</a></h4>
+		                  <p class="card-text">부가설명6</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
             </div>
 
           </div>
