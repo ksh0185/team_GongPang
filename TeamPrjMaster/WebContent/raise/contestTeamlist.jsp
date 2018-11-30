@@ -130,13 +130,15 @@
           </div>
 
           <div class="row">
-
+		
+		
            <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <a href="contestListdetail.jsp" id="aTitle">
 	              <div class="card h-100">
-	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                <img class="card-img-top2" src="http://placehold.it/700x400" alt="">
 	                
 		                <div class="card-body">
-		                  <h4 class="card-title"><a href="#" id="aTitle">제목1</a></h4>
+		                  <h4 class="card-title">제목1</h4>
 		                  <p class="card-text">부가설명1</p>
 		                </div>
 		                
@@ -144,81 +146,92 @@
 		                  <h5>$상금</h5>
 		                </div>
 	              </div>
+	              </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4" id="list">
+           <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <a href="contestListdetail.jsp" id="aTitle">
 	              <div class="card h-100">
-	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                <img class="card-img-top2" src="http://placehold.it/700x400" alt="">
 	                
 		                <div class="card-body">
-		                  <h4 class="card-title"><a href="#" id="aTitle">제목2</a></h4>
-		                  <p class="card-text">부가설명2</p>
+		                  <h4 class="card-title">제목1</h4>
+		                  <p class="card-text">부가설명1</p>
 		                </div>
 		                
 		                <div class="card-footer">
 		                  <h5>$상금</h5>
 		                </div>
 	              </div>
+	              </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4" id="list">
+           <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <a href="contestListdetail.jsp" id="aTitle">
 	              <div class="card h-100">
-	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                <img class="card-img-top2" src="http://placehold.it/700x400" alt="">
 	                
 		                <div class="card-body">
-		                  <h4 class="card-title"><a href="#" id="aTitle">제목3</a></h4>
-		                  <p class="card-text">부가설명3</p>
+		                  <h4 class="card-title">제목1</h4>
+		                  <p class="card-text">부가설명1</p>
 		                </div>
 		                
 		                <div class="card-footer">
 		                  <h5>$상금</h5>
 		                </div>
 	              </div>
-            </div>
-
-             <div class="col-lg-4 col-md-6 mb-4" id="list">
-	              <div class="card h-100">
-	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
-	                
-		                <div class="card-body">
-		                  <h4 class="card-title"><a href="#" id="aTitle">제목4</a></h4>
-		                  <p class="card-text">부가설명4</p>
-		                </div>
-		                
-		                <div class="card-footer">
-		                  <h5>$상금</h5>
-		                </div>
-	              </div>
+	              </a>
             </div>
 
              <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <a href="contestListdetail.jsp" id="aTitle">
 	              <div class="card h-100">
-	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                <img class="card-img-top2" src="http://placehold.it/700x400" alt="">
 	                
 		                <div class="card-body">
-		                  <h4 class="card-title"><a href="#" id="aTitle">제목5</a></h4>
-		                  <p class="card-text">부가설명5</p>
+		                  <h4 class="card-title">제목1</h4>
+		                  <p class="card-text">부가설명1</p>
 		                </div>
 		                
 		                <div class="card-footer">
 		                  <h5>$상금</h5>
 		                </div>
 	              </div>
+	              </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4" id="list">
+             <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <a href="contestListdetail.jsp" id="aTitle">
 	              <div class="card h-100">
-	                <a href="#"><img class="card-img-top2" src="http://placehold.it/700x400" alt=""></a>
+	                <img class="card-img-top2" src="http://placehold.it/700x400" alt="">
 	                
 		                <div class="card-body">
-		                  <h4 class="card-title"><a href="#" id="aTitle">제목6</a></h4>
-		                  <p class="card-text">부가설명6</p>
+		                  <h4 class="card-title">제목1</h4>
+		                  <p class="card-text">부가설명1</p>
 		                </div>
 		                
 		                <div class="card-footer">
 		                  <h5>$상금</h5>
 		                </div>
 	              </div>
+	              </a>
+            </div>
+
+           <div class="col-lg-4 col-md-6 mb-4" id="list">
+	              <a href="contestListdetail.jsp" id="aTitle">
+	              <div class="card h-100">
+	                <img class="card-img-top2" src="http://placehold.it/700x400" alt="">
+	                
+		                <div class="card-body">
+		                  <h4 class="card-title">제목1</h4>
+		                  <p class="card-text">부가설명1</p>
+		                </div>
+		                
+		                <div class="card-footer">
+		                  <h5>$상금</h5>
+		                </div>
+	              </div>
+	              </a>
             </div>
 
           </div>

@@ -26,6 +26,7 @@
 	<link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
 	<link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
 	<link rel="stylesheet"  href="./../resources/custom_css/TeamListdetail.css">
+	
 	<script>
     	function schClick()
     	{
@@ -88,31 +89,22 @@
     <div class="container" id="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4" id="heading">공모전 리스트 제목
-        <small>작성자</small>
-      </h1>
 
       <!-- Portfolio Item Row -->
       <div class="row">
 
-        <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
-        </div>
-        
-
-        <div class="col-md-4">
-          <h3 class="my-3">공모전명</h3>
-          <p>공모전 설명</p>
-          <h3 class="my-3">자세한 설명</h3>
-          <ul>
-            <li>자세한 설명1</li>
-            <li>자세한 설명2</li>
-            <li>자세한 설명3</li>
-            <li>자세한 설명4</li>
-          </ul>
-        </div>
-		
-      </div>
+	<div class="col-sm-8">
+	
+	      <h1 class="my-4" id="heading">공모전 리스트 제목 <small>작성자</small> </h1>
+	          <p><strong>상금 : </strong> <span>dsfdsaf</span></p>
+	          <p><strong>기간 : </strong> <span>dsfdsaf</span></p>
+	          <p><strong>목적 : </strong> <span>dsfdsaf</span></p>
+	          <br>
+	          <p><strong>상세내용</strong></p>
+	          <textarea readonly style="resize: none" id="cont">dsfsdafdsafdsfsdaf</textarea>
+	        </div>
+	           
+	 </div>
       
 	 	<div id="btndiv">
 		 	<input type="submit" id="btn" value="공모전신청">

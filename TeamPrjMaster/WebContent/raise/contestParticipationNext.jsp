@@ -23,79 +23,9 @@
     <link href="./../resources/custom_css/customCss.css" rel="styleshet">
       <link rel="stylesheet"  href="./../resources/custom_css/TeamList.css">
       <link rel="stylesheet"  href="./../resources/main_css/maintest1.css">
+      <link rel="stylesheet"  href="./../resources/custom_css/customCss.css">
     
-    <script>
-    var checked1=false;
-    var checked2=false;
-    var checked3=false;
-    
-    	function colChk()
-    	{
-    		var colTxt = document.getElementById("colTxt");
-    		var col = document.getElementById("color");
-    		colTxt.value = col.value;
-    	}
-    	
-    	function nextPage()
-    	{
-    		if(checked1==true && checked2==true && checked3==true)
-    			{
-    				alert("다음페이지로");
-    			}
-    		else
-    			{
-    				alert("동의되지 않은 맥락이 존재합니다");
-    			}
-    	}
-    
-    	function init()
-    	{
-    		check1 = document.getElementById("check1");
-    		check2 = document.getElementById("check2");
-    		check3 = document.getElementById("check3");
-    	}
-    
-    	function checkDong(idx) {
-    		if(idx==0){
-    		if(checked1==false)
-    			{
-    				check1.style.backgroundColor = "#0075ff";
-    				checked1=true;
-    			}
-    		else
-    			{
-    				check1.style.backgroundColor = "#c0c0c0";
-    				checked1=false;
-    			}
-    		}
-    		
-    		if(idx==1){
-        		if(checked2==false)
-        			{
-        				check2.style.backgroundColor = "#0075ff";
-        				checked2=true;
-        			}
-        		else
-        			{
-        				check2.style.backgroundColor = "#c0c0c0";
-        				checked2=false;
-        			}
-        		}
-    		
-    		if(idx==2){
-        		if(checked3==false)
-        			{
-        				check3.style.backgroundColor = "#0075ff";
-        				checked3=true;
-        			}
-        		else
-        			{
-        				check3.style.backgroundColor = "#c0c0c0";
-        				checked3=false;
-        			}
-        		}
-    	}
-    </script>
+
 	
   </head>
 
@@ -148,46 +78,63 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container_roud">
 
-      <div class="row">
-      
-          <h2 class="mt-4">공모전 참여 상세정의</h2>
-
-          <table class="thead-dark">
-          	<tr>
-          		<td colspan="2"><h6 class="mt-4">참여 게시글 작성 전 이용약관을 참고하세요
-			</h6><br><br></td>
-          	<tr>
-          		<th><FONT COLOR=black> * </FONT>글번호</th><td><a> 01 </a></td>
-          	</tr>
-          	<tr>
-          		<th><FONT COLOR=black> * </FONT>공모전 제목</th><td><a> 로고좀 그려주세요 </a></td>
-          	</tr>
-          		<tr>
-          		<th><FONT COLOR=black> * </FONT>상금</th><td><a>200,000</a>원</td>
-          	</tr>
-          		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>작품명</th><td><input type="text" required></td>
-          	</tr>
-          		<tr>
-          		<th><FONT COLOR=BLUE> * </FONT>작품설명</th><td><textarea style="resize: none" class="textCom" required></textarea></td>
-          	</tr>
-          	<tr>
-          		<th><FONT COLOR=blue> * </FONT>미리보기 이미지</th><td><input type="file" required></td>
-          	</tr>
-          	<tr>
-          		<th><FONT COLOR=blue> * </FONT>원본 파일</th><td><input type="file" required></td>
-          	</tr>
+  
+		<div class="row">
+			<h3 class="mt-4">
+				Step 1
+			</h3>
+		</div>
+		<div class="row">
+			<h3>공모전 참가</h3>
+		</div>
+		<hr>
+          <table>
           	
+          	<tr>
+          		<th><br>글번호<br><input type="text" class="raiseNextForm" readonly></th>
+          	</tr>		       	
+          	<tr>
+          		<th><br>공모전 제목<br><input type="text" class="raiseNextForm" required></th>
+          	</tr>		       	
+          		<tr>
+          		<th><br>상금<br><input class="raiseNextForm" type ="text" id="colTxt" ></th>		
+          	</tr>
+          		<tr>
+          		<th><br>작품명<br><input type="text" class="raiseNextForm" required></th>
+          	</tr>	
+          			
+          		<tr>
+          		<th><br>작품설명<br><textarea style="resize: none" class="textCom" required></textarea></th>
+          	</tr>
+          	</table>
+          	<br>
+          	<hr class="dotted">
+          	<div class="row">
+			<h3 class="mt-4">
+				Step 2
+			</h3>
+			</div>
+			<div class="row">
+			<h3>작품 업로드</h3>
+			</div>
+			<hr>
+          	<table>
+          	<tr>
+          		<th><br>대표 이미지<br><input type="file" required id="fileUp"></th>
+          	</tr>
+          	<tr>
+          		<th><br>추가 이미지<br><input type="file" required id="fileUp"></th>
+          	</tr>
           </table>
-        </div>
+          <div class="g-recaptcha" data-sitekey="6Lf3wH0UAAAAAPi82Mpbb-W-352kVRIJ6vnAcFXe"></div>
+        
 
       <br>
       <!-- /.row -->
 		<div class="row">
-			<h6 class="mt-4">위의 상기 내용에 동의하여 공모전 참여를 진행하고자 하면 제출단계로 이동하세요.
-			</h6>
+			<hr class="none">
 			 <p>
              <input type="submit" class="btn btn-primary btn-lg" value="제출하기&raquo;"> 
           </p>
@@ -196,6 +143,7 @@
       <!-- /.row -->
 
     </div>
+
     <!-- /.container -->
 
     <!-- Footer -->
@@ -209,6 +157,15 @@
     <!-- Bootstrap core JavaScript -->
     <script src="./../resources/vendor/jquery/jquery.min.js"></script>
     <script src="./../resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+		grecaptcha.ready(function() {
+		grecaptcha.execute('6Lddwn0UAAAAAIXKERFrTUQhtyQ8IQKwhLybXWkZ', {action: 'action_name'})
+		.then(function(token) {
+		// Verify the token on the server.
+		});
+		});
+</script>
 	</form>
   </body>
 
