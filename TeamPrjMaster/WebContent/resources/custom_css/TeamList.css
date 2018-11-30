@@ -1,7 +1,11 @@
 
+div#list {
+    cursor: pointer;
+    transition: all ease 1s;
+}
 
 #list:hover {
-transform: scale( 1.2 );
+transform: scale( 1.1 );
 }
 
 img.str {
@@ -19,10 +23,6 @@ img.xcl {
 /* 	margin-right:420px; */
 }
 
-img#list {
-    cursor: pointer;
-    transition: all ease 1s;
-}
 
 #btn {
 	border-radius: 5px;

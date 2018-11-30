@@ -5,7 +5,7 @@ div#container {
 #btn {
 	border-radius: 5px;
 	border: 0px; 
-	background-color:DodgerBlue;
+	background-color:#1fa67b;
 	color:white;
 	cursor: pointer;
 	width: 120px;
@@ -19,8 +19,8 @@ div#btndiv {
 }
 
 #btn:hover {
-	background-color:navy;
-	border:navy;
+	background-color:#1b8b67;
+	border:#1b8b67;
 }
 
 .schTable{
