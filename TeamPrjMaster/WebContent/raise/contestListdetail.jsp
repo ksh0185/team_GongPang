@@ -33,6 +33,11 @@
     		alert("확인");
     	}
     	
+    	
+    	function cancel()
+    	{
+    		location.href="./contestTeamlist.jsp"
+    	}
     
     </script>
     
@@ -108,7 +113,7 @@
       
 	 	<div id="btndiv">
 		 	<input type="submit" id="btn" value="공모전신청">
-		 	<input type="submit" id="btn" value="취소">
+		 	<input type="button" id="btn" value="취소" onclick="cancel()">
 	 	</div>
 
 
