@@ -69,3 +69,11 @@ a#menuList2 {
 transform: scale( 1.05 );
 background-color:#d9ece6;
 }
+
+
+a#aTitle{
+	text-decoration:none;
+}
+a#aTitle:hover {
+	text-decoration:none;
+}
