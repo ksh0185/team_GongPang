@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<!--  테이블의 레코드를 조회해서 조회결과를 속성에 저장할 
+			UserVO 객체의 별칭을 설정
+			alias: 별칭
+			type: UserVO객체의 패키지와 클래스명
+			이제 별칭인 User를 쓰면 myspring.user.vo 패키지의 UserVO 객체가 실행됨
+		 -->
+		<typeAlias alias="User" type="myspring.user.vo.UserVO"/>
+	</typeAliases>
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

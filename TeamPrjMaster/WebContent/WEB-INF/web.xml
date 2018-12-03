@@ -3,7 +3,9 @@
 <web-app xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
 
 <!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
-
+	<welcome-file-list>
+		<welcome-file>contestMain.jsp</welcome-file>
+	</welcome-file-list>
 
 
 <context-param>
@@ -30,16 +32,18 @@
 
 <servlet>
 
-<servlet-name>appServlet</servlet-name>
+<servlet-name>action</servlet-name>
 
-<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+<servlet-class>
+org.springframework.web.servlet.DispatcherServlet
+</servlet-class>
 
 
 <init-param>
 
-<param-name>contextConfigLocation</param-name>
+	<param-name>contextConfigLocation</param-name>
 
-<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
+	<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
 
 </init-param>
 
@@ -50,10 +54,16 @@
 
 <servlet-mapping>
 
-<servlet-name>appServlet</servlet-name>
+<servlet-name>action</servlet-name>
 
-<url-pattern>/</url-pattern>
+<url-pattern>/gongpang.do</url-pattern>
 
 </servlet-mapping>
+
+<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value></param-value>
+</context-param>
+
 
 </web-app>
